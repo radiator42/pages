@@ -1,14 +1,14 @@
 @font-face {
   font-family: "pfagorasanspro-bold";
-  src: url("../font/pfagorasanspro-bold.ttf") format("truetype");
-  font-weight: normal;
+  src: url("../../fonts/pfagorasanspro-bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "pfagorasanspro-reg";
-  src: url("../font/pfagorasanspro-reg.ttf") format("truetype");
+  src: url("../../fonts/pfagorasanspro-reg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "pfagorasanspro-italic";
-  src: url("../font/pfagorasanspro-italic.ttf") format("truetype");
+  src: url("../../fonts/pfagorasanspro-italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,15 @@
 
 @font-face {
   font-family: "pfagorasanspro-light";
-  src: url("../font/pfagorasanspro-light.ttf") format("truetype");
+  src: url("../../fonts/pfagorasanspro-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "pfagorasanspro-thin";
+  src: url("../../fonts/pfagorasanspro-thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -33,7 +41,7 @@
 
 
 html {
-  font-family: $base-font;
+  font-family: $base-font-reg;
   font-size: $font-size;
   line-height: 20px;
 }
@@ -41,6 +49,10 @@ html {
 img {
   max-width: 100%;
   height: auto;
+}
+
+p {
+  margin: 0;
 }
 
 h1 {
@@ -96,4 +108,8 @@ mark {
 b,
 strong {
   // font-weight: ;
+}
+
+a {
+  color: black;
 }

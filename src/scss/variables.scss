@@ -10,7 +10,10 @@ $color-success: #38a53d;
 $color-danger: #e73c64;
 $color-warning: #efac4d;
 
-$base-font: "pfagorasanspro-reg", sans-serif;
+$base-font-reg: "pfagorasanspro-reg";
+$base-font-bold: "pfagorasanspro-bold";
+$base-font-thin: "pfagorasanspro-thin";
+
 $font-size: 16px;
 
 
@@ -30,3 +33,5 @@ $font-size--h3: 16px;
 // $font-size--small: 14px;
 
 $line-height: 1.65;
+
+$screen-lg: 1200px;

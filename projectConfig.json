@@ -6,8 +6,7 @@
   },
   "addCssBefore": [
     "./src/scss/variables.scss",
-    "../../node_modules/bootstrap/dist/css/bootstrap.min.css",
-    "../css/normalize.css"
+    "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
   ],
   "addCssAfter": [],
   "singleCompiled": [],
