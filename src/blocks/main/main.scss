@@ -1,0 +1,19 @@
+// В этом файле должны быть стили для БЭМ-блока main, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.main {
+  .right-items {
+    .right-items__block {
+      position: relative;
+
+      .vertical-line {
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        display: inline-block;
+        background-color: #ff8937;
+      }
+    }
+  }
+}

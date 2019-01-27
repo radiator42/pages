@@ -1,0 +1,19 @@
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function rem($num) {
+  @return strip-unit($num) / 16 * 1rem;
+}
+
+@function em($num, $root: 16) {
+  @return strip-unit($num) / $root * 1em;
+}
+
+@function vw($num, $root: 1600) {
+  @return strip-unit($num) / $root * 100vw;
+}
+
+@function vh($num, $root: 1024) {
+  @return strip-unit($num) / $root * 100vh;
+}
