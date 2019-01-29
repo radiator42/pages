@@ -112,4 +112,9 @@ strong {
 
 a {
   color: black;
+  &:focus,
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
 }
